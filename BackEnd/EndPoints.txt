@@ -1,0 +1,26 @@
+
+
+Payara Micro URLs:
+http://DEV-1261.mshome.net:8080/copyMCP
+
+'copyMCP' REST Endpoints:
+GET	/copyMCP/webapi/Doctor
+POST	/copyMCP/webapi/Doctor
+GET	/copyMCP/webapi/Doctor/Medical_report_search/{Medical_reportID}
+PUT	/copyMCP/webapi/Doctor/Schedule/{ScheduleId}
+GET	/copyMCP/webapi/Doctor/search
+PUT	/copyMCP/webapi/Doctor/status/{consultId}
+GET	/copyMCP/webapi/Doctor/{doctorID}/Consultation
+POST	/copyMCP/webapi/Doctor/{doctorID}/Patient/{PatientID}/Medical_Report
+GET	/copyMCP/webapi/Doctor/{doctorID}/Schedule
+POST	/copyMCP/webapi/Doctor/{doctorID}/Schedule
+POST	/copyMCP/webapi/Login
+GET	/copyMCP/webapi/Medical_Report/Patient/{PatientID}
+GET	/copyMCP/webapi/Patient
+POST	/copyMCP/webapi/Patient
+PUT	/copyMCP/webapi/Patient/rate/{consultId}
+GET	/copyMCP/webapi/Patient/{patientID}
+GET	/copyMCP/webapi/Patient/{patientID}/Consultation
+POST	/copyMCP/webapi/Patient/{patientID}/Doctor/{doctorID}/Consultation
+GET	/copyMCP/webapi/application.wadl
+GET	/copyMCP/webapi/myresource
